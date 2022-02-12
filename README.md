@@ -11,12 +11,12 @@
 
 Pasos para iniciar el proyecto:
 
--Clonar repositorio
--Abir la consola con cmd
--Dirigirse a su ruta de la clonación del repositorio, como por ejemplo con el comando `cd C:\xampp\htdocs\Laravel-8-Blog-Administrativo`
--Instalar las dependencias con el comando `npm install`
+- Clonar repositorio
+- Abir la consola con cmd
+- Dirigirse a su ruta de la clonación del repositorio, como por ejemplo con el comando `cd C:\xampp\htdocs\Laravel-8-Blog-Administrativo`
+- Instalar las dependencias con el comando `npm install`
 
 ## Base de datos
--Tener instalado XAMPP junto con los modulos Apache y MySQL
--Dar click en `admin` de MySQL o dirigirse a `http://localhost/phpmyadmin/index.php`
--Crear la base de datos `blogadministrable`
+- Tener instalado XAMPP junto con los modulos Apache y MySQL
+- Dar click en `admin` de MySQL o dirigirse a `http://localhost/phpmyadmin/index.php`
+- Crear la base de datos `blogadministrable`
