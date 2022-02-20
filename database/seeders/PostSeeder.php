@@ -23,7 +23,7 @@ class PostSeeder extends Seeder
                 'imageable_type' => Post::class,
             ]);
             //Metodo "tags" de Post.php->Agregar datos a la tabla post_tag
-            $post->tags()->attach([
+            $post->tagsModel()->attach([
                 rand(1,4),
                 rand(5,8)
             ]);

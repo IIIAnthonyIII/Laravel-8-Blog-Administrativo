@@ -18,12 +18,12 @@ class Post extends Model
     }
 
     //Relacion muchos a muchos
-    public function tags(){
+    public function tagsModel(){
         return $this->belongsToMany(Tag::class);
     }
 
     //Relación uno a uno polimorfica
-    public function image(){
+    public function imageModel(){
         return $this->morphOne(Image::class, 'imageable');
     }
 }
